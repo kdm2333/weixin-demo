@@ -7,16 +7,16 @@ package com.kdm.util.accessTokenUtil;
  */
 public class AccessToken {
 
-    private String accessToken;
+    private String access_Token;
 
     private int expires_in;
 
-    public String getAccessToken() {
-        return accessToken;
+    public String getAccess_Token() {
+        return access_Token;
     }
 
-    public void setAccessToken(String accessToken) {
-        this.accessToken = accessToken;
+    public void setAccess_Token(String access_Token) {
+        this.access_Token = access_Token;
     }
 
     public int getExpires_in() {
