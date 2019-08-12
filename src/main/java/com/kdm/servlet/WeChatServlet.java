@@ -2,12 +2,9 @@ package com.kdm.servlet;/**
  * Created by 57180 on 2019/7/29.
  */
 
-import com.kdm.messageUtil.MessageUtil;
-import com.kdm.messageUtil.impl.MessageText;
-import com.kdm.messageUtil.impl.TextMessageUtil;
+import com.kdm.message.util.MessageUtil;
+import com.kdm.message.util.impl.TextMessageUtil;
 import org.apache.log4j.Logger;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
