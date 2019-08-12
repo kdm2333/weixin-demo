@@ -119,6 +119,10 @@ public class WeChatServlet extends HttpServlet {
                 message = textMessageUtil.init(FromUserName,ToUserName,Content);
                 System.out.println(message.toString());
             }
+        }else{
+            TextMessageUtil textMessageUtil = new TextMessageUtil();
+            message = "success";
+            System.out.println(message.toString());
         }
         try {
             out = resp.getWriter();

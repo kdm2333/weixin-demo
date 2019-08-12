@@ -44,4 +44,14 @@ public class TextMessageUtil implements BaseMessageUtil<MessageText> {
         return messageToXml(messageText);
     }
 
+    public String returnSuccess(String FromUserName, String ToUserName) {
+        MessageText messageText = new MessageText();
+        messageText.setFromUserName(ToUserName);
+        messageText.setToUserName(FromUserName);
+        messageText.setCreateTime(new Date().getTime());
+        messageText.setMsgType("text");
+        messageText.setContent("success");
+        return messageToXml(messageText);
+    }
+
 }
