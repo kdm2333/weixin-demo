@@ -1,14 +1,18 @@
-package com.kdm.servlet;/**
+package com.kdm.controller;/**
  * Created by 57180 on 2019/7/29.
  */
 
+import com.kdm.message.service.MessageOperation;
 import com.kdm.message.util.MessageUtil;
 import com.kdm.message.util.impl.TextMessageUtil;
-import org.apache.log4j.Logger;
+import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.annotation.Resource;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -24,11 +28,12 @@ import java.util.Map;
  * @author: 李柏君
  * @create: 2019-07-29 14:23
  **/
-@WebServlet(name = "WeChatServlet",urlPatterns ="/WeChatServlet")
-/*@RequestMapping(value = "WeChatServlet")*/
-public class WeChatServlet extends HttpServlet {
+@Log4j2
+@Controller
+public class WeChatController {
 
-    public static Logger logger = Logger.getLogger(WeChatServlet.class);
+    @Resource
+    private MessageOperation messageOperation;
 
     private final String TOKEN = "kdm1";
     private String signature;//微信加密签名
@@ -36,8 +41,8 @@ public class WeChatServlet extends HttpServlet {
     private String nonce;//随机数
     private String echostr;//随机字符串
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    @RequestMapping(value = "WeChat",method = RequestMethod.GET)
+    protected void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("开始校验签名");
 
         signature = req.getParameter("signature");
@@ -91,36 +96,19 @@ public class WeChatServlet extends HttpServlet {
     }
 
 
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+    @RequestMapping(value = "WeChat",method = RequestMethod.POST)
+    protected void returnMessage(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setCharacterEncoding("UTF-8");
         PrintWriter out = null;
 
         MessageUtil messageUtil = new MessageUtil();
         Map<String,String> map = messageUtil.xmlToMap(req);
-        System.out.println(map.toString());
-        String ToUserName = map.get("ToUserName");
-        String FromUserName = map.get("FromUserName");
+
+        log.info(map.toString());
+
         String MsgType = map.get("MsgType");
-        String Content = map.get("Content");
-
-        String message = null;
-
-        if ("text".equals(MsgType)){
-            if ("1".equals(Content)){
-                TextMessageUtil textMessageUtil = new TextMessageUtil();
-                message = textMessageUtil.init(FromUserName,ToUserName);
-                System.out.printf(message.toString());
-            }else{
-                TextMessageUtil textMessageUtil = new TextMessageUtil();
-                message = textMessageUtil.init(FromUserName,ToUserName,Content);
-                System.out.println(message.toString());
-            }
-        }else{
-            TextMessageUtil textMessageUtil = new TextMessageUtil();
-            message = "success";
-            System.out.println(message.toString());
-        }
+        String message = messageOperation.messageOperaction(map);
         try {
             out = resp.getWriter();
             out.write(message);

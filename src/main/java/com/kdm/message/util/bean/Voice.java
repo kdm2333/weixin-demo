@@ -14,6 +14,10 @@ public class Voice {
 
     private String MediaId;
 
+    public Voice(String mediaId){
+        MediaId = mediaId;
+    }
+
     public String getMediaId() {
         return MediaId;
     }

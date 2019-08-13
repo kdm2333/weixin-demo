@@ -9,13 +9,13 @@ package com.kdm.message.util.bean;
  */
 public class MessageVoice extends MessageBase {
 
-    private Voice voice;
+    private Voice Voice;
 
     public Voice getVoice() {
-        return voice;
+        return Voice;
     }
 
     public void setVoice(Voice voice) {
-        this.voice = voice;
+        Voice = voice;
     }
 }
