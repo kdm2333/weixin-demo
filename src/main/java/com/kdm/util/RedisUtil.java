@@ -1,4 +1,4 @@
-package com.kdm.util.accessTokenUtil;
+package com.kdm.util;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
