@@ -1,4 +1,8 @@
-package com.kdm.message.util.bean;
+package com.kdm.messageUtil;
+
+import com.sun.org.apache.xpath.internal.objects.XString;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
 
 /**
  * @PackageName:com.kdm.messageUtil

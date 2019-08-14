@@ -2,8 +2,11 @@ package com.kdm.qrsence.generateQR;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-
+import com.google.gson.Gson;
 import com.kdm.util.accessTokenUtil.WeixinUtil;
+import com.sitech.core.architecture.restrict.RestCacheManager;
+import com.sitech.echn.weixin.weixincore.common.WeiXinConstant;
+import net.sf.json.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -58,7 +61,7 @@ public class QRgenerator {
             HttpEntity entity = response.getEntity();
             if (entity != null){
                 String result = EntityUtils.toString(entity);
-                jsonObject = JSON.parseObject(result);
+                jsonObject = JSON.parse(result);
             }
         }catch (Exception e){
 

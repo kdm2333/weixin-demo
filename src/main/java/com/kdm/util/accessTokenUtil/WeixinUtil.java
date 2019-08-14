@@ -1,9 +1,9 @@
 package com.kdm.util.accessTokenUtil;
 
 import com.alibaba.fastjson.JSONObject;
-import com.kdm.util.RedisUtil;
-import lombok.extern.slf4j.Slf4j;
+import javafx.scene.chart.ScatterChart;
 import org.apache.http.HttpEntity;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -22,7 +22,6 @@ import java.io.IOException;
  * @author: libj_mios
  * @date: 2019/8/5 16:59
  */
-@Slf4j
 public class WeixinUtil {
 
     private static final String APPID = "wx8971117db79ce400";

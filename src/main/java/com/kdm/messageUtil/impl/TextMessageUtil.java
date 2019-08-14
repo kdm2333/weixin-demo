@@ -1,7 +1,7 @@
-package com.kdm.message.util.impl;
+package com.kdm.messageUtil.impl;
 
-import com.kdm.message.util.BaseMessageUtil;
-import com.kdm.message.util.bean.MessageText;
+import com.kdm.messageUtil.BaseMessageUtil;
+import com.kdm.messageUtil.impl.MessageText;
 import com.thoughtworks.xstream.XStream;
 
 import java.util.Date;

@@ -1,5 +1,6 @@
-package com.kdm.message.util;
+package com.kdm.messageUtil;
 
+import jdk.nashorn.internal.ir.CatchNode;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;

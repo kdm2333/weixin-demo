@@ -11,8 +11,7 @@ public class Test {
 
     public static void main(String[] args){
         System.out.println("测试开启");
-        String access_token;
-        access_token = WeixinUtil.getAccess_Token();
+        String access_token = WeixinUtil.getAccess_Token();
         System.out.println("调用成功access_token："+access_token);
     }
 }

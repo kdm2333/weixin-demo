@@ -1,4 +1,4 @@
-package com.kdm.message.util;
+package com.kdm.messageUtil;
 
 public interface BaseMessageUtil<T> {
 
