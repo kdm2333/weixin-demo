@@ -1,8 +1,6 @@
-package com.kdm.messageUtil.impl;
+package com.kdm.message.util.bean;
 
-import com.kdm.messageUtil.MessageBase;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
+import com.kdm.message.util.bean.MessageBase;
 
 /**
  * @PackageName:com.kdm.messageUtil.impl

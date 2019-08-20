@@ -1,0 +1,8 @@
+10:21:32.133 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 6724 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+10:21:32.141 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+10:21:33.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+10:21:33.561 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:21:33.561 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+10:21:33.673 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:21:34.521 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+10:21:34.545 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 3.312 seconds (JVM running for 5.817)

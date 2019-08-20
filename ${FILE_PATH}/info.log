@@ -1,0 +1,132 @@
+17:23:29.856 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 16232 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:23:29.864 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:23:31.003 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:23:31.011 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:23:31.011 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:23:31.107 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:23:31.830 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:23:31.854 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.402 seconds (JVM running for 4.318)
+17:23:41.195 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:23:41.242 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {Content=1, CreateTime=1565688221, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=text, MsgId=22415265467748993}
+17:23:41.344 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565688221242</CreateTime>
+  <MsgType>text</MsgType>
+  <Content>欢迎关注牛逼嗷</Content>
+</xml>
+17:26:15.515 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 22692 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:26:15.523 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:26:16.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:26:16.676 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:26:16.676 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:26:16.788 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:26:17.623 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:26:17.655 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.714 seconds (JVM running for 5.6)
+17:26:23.650 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:26:23.694 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {Content=1, CreateTime=1565688383, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=text, MsgId=22415268635974496}
+17:26:23.797 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565688383694</CreateTime>
+  <MsgType>text</MsgType>
+  <Content>欢迎关注牛逼嗷</Content>
+</xml>
+17:27:05.470 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 1916 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:27:05.478 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:27:06.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:27:06.565 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:27:06.565 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:27:06.669 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:27:07.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:27:07.457 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.929 seconds (JVM running for 4.815)
+17:27:11.178 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:27:11.269 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {Content=1, CreateTime=1565688431, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=text, MsgId=22415268355007431}
+17:27:11.410 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565688431279</CreateTime>
+  <MsgType>text</MsgType>
+  <Content>欢迎关注牛逼嗷</Content>
+</xml>
+17:27:39.765 [http-nio-80-exec-3] INFO  com.kdm.controller.WeChatController - {Content=嗷, CreateTime=1565688460, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=text, MsgId=22415270165719514}
+17:27:39.771 [http-nio-80-exec-3] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565688459766</CreateTime>
+  <MsgType>text</MsgType>
+  <Content>欢迎来到奇奇不怪</Content>
+</xml>
+17:41:59.331 [http-nio-80-exec-5] INFO  com.kdm.controller.WeChatController - {MediaId=DJf7xPpdgVyV49Gm8uh1C9l8OLMEvgBF4rgkATbSEOVpdEr6US3U0Cbj96IhU2Xl, CreateTime=1565689318, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=image, PicUrl=http://mmbiz.qpic.cn/mmbiz_jpg/smd0pVk8HfcG3P23umSf9tibtFospZJqLtXlwLBawIDXBIURpfUpXNvBZ5Q1RlBU30G8WzKp2ecvrkmtDEpE1SA/0, MsgId=22415282700936357}
+17:41:59.331 [http-nio-80-exec-5] INFO  com.kdm.message.service.MessageOperation - success
+17:43:27.110 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 22556 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:43:27.118 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:43:28.167 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:43:28.175 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:43:28.175 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:43:28.271 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:43:28.999 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:43:29.023 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.314 seconds (JVM running for 3.931)
+17:43:36.320 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:43:36.369 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {MediaId=X42piBzApevyKSDWQXfa5Xjz7mK9BoagpwgeK2p1aYBlzMZOg5nAGkH-047L9vOj, CreateTime=1565689415, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=image, PicUrl=http://mmbiz.qpic.cn/mmbiz_jpg/smd0pVk8HfcG3P23umSf9tibtFospZJqL1XJQVccSZEqYhYO2Q5L4NcGibUXpCtggTzq4OvGDQFDtce6hWNtsYHQ/0, MsgId=22415283103932762}
+17:43:36.452 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565689416369</CreateTime>
+  <MsgType>image</MsgType>
+  <image>
+    <MediaId>X42piBzApevyKSDWQXfa5Xjz7mK9BoagpwgeK2p1aYBlzMZOg5nAGkH-047L9vOj</MediaId>
+  </image>
+</xml>
+17:45:41.525 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 27384 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:45:41.533 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:45:42.550 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:45:42.558 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:45:42.558 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:45:42.654 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:45:43.272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:45:43.296 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.489 seconds (JVM running for 4.139)
+17:46:00.575 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:46:00.627 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {MediaId=pPK2xoJW0VaHeyEsuTNz2WqQh-E-H3c6VDg768PYCTTyeApL5WRRAHafFeiWq9sG, CreateTime=1565689560, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=image, PicUrl=http://mmbiz.qpic.cn/mmbiz_jpg/smd0pVk8HfcG3P23umSf9tibtFospZJqL2Nmic644jBwib0Gsj0jpMESz5FHfgS9WmMr3eQgqRIswAvcyLuiaN0Rzw/0, MsgId=22415287917512333}
+17:46:00.707 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565689560627</CreateTime>
+  <MsgType>image</MsgType>
+  <Image>
+    <MediaId>pPK2xoJW0VaHeyEsuTNz2WqQh-E-H3c6VDg768PYCTTyeApL5WRRAHafFeiWq9sG</MediaId>
+  </Image>
+</xml>
+17:46:56.383 [main] INFO  com.kdm.WeixinDemoApplication - Starting WeixinDemoApplication on DESKTOP-11R007I with PID 19076 (D:\peicode\weixin-demo\target\classes started by 57180 in D:\peicode\weixin-demo)
+17:46:56.393 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+17:46:57.440 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+17:46:57.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:46:57.448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+17:46:57.544 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:46:58.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+17:46:58.226 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 2.244 seconds (JVM running for 3.879)
+17:47:09.891 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:09.974 [http-nio-80-exec-1] INFO  com.kdm.controller.WeChatController - {MediaId=nr4D4IAXXdiEoqDFV3_M8YS9Jz0nONpuMGkOz4alA30p1oDk18eAkzlPFXFqt72f, CreateTime=1565689628, ToUserName=gh_726b66e90be6, FromUserName=oiYh71LwVSohz9-0perm_1tEBhxA, MsgType=image, PicUrl=http://mmbiz.qpic.cn/mmbiz_jpg/smd0pVk8HfcG3P23umSf9tibtFospZJqL0rVsiajPxf7R5ycTqjSWXibDjzmJHoaVWJeqO15FsjtNloaXosuedCjg/0, MsgId=22415285500985172}
+17:47:10.143 [http-nio-80-exec-1] INFO  com.kdm.message.service.MessageOperation - <xml>
+  <ToUserName>oiYh71LwVSohz9-0perm_1tEBhxA</ToUserName>
+  <FromUserName>gh_726b66e90be6</FromUserName>
+  <CreateTime>1565689629974</CreateTime>
+  <MsgType>image</MsgType>
+  <Image>
+    <MediaId>nr4D4IAXXdiEoqDFV3_M8YS9Jz0nONpuMGkOz4alA30p1oDk18eAkzlPFXFqt72f</MediaId>
+  </Image>
+</xml>
+10:17:42.859 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+10:17:44.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+10:17:44.557 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:17:44.557 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+10:17:44.710 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:17:45.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+10:17:45.953 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 3.606 seconds (JVM running for 7.326)
+10:21:32.141 [main] INFO  com.kdm.WeixinDemoApplication - No active profile set, falling back to default profiles: default
+10:21:33.553 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+10:21:33.561 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:21:33.561 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+10:21:33.673 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:21:34.521 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+10:21:34.545 [main] INFO  com.kdm.WeixinDemoApplication - Started WeixinDemoApplication in 3.312 seconds (JVM running for 5.817)
